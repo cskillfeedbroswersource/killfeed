@@ -1,6 +1,5 @@
 $(function() {
     var tKillNames = []; // Initialize as an empty array
-    var ctKillNames = ["code", "stocks", "eth", "hahalarp", "zui"]; // add or remove "enemies"
     var weapons = ["ak47", "deagle", "awp" /*, "g3sg1", "m4a4"*/]; // add or remove images of weapons
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
